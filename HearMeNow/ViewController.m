@@ -4,7 +4,7 @@
 //
 //  Created by Barry DCunha on 27/10/14.
 //  Copyright (c) 2014 OctoberApps. All rights reserved.
-//
+// THis is a view comtroller implementation file
 
 #import "ViewController.h"
 
