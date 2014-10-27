@@ -21,6 +21,7 @@
 		4C4B674019FE451200A31AE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4B672219FE451200A31AE7 /* UIKit.framework */; };
 		4C4B674819FE451200A31AE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C4B674619FE451200A31AE7 /* InfoPlist.strings */; };
 		4C4B674A19FE451200A31AE7 /* HearMeNowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4B674919FE451200A31AE7 /* HearMeNowTests.m */; };
+		4CB3381B19FE5DB800D8B7AE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB3381A19FE5DB800D8B7AE /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4C4B674519FE451200A31AE7 /* HearMeNowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HearMeNowTests-Info.plist"; sourceTree = "<group>"; };
 		4C4B674719FE451200A31AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C4B674919FE451200A31AE7 /* HearMeNowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HearMeNowTests.m; sourceTree = "<group>"; };
+		4CB3381A19FE5DB800D8B7AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB3381B19FE5DB800D8B7AE /* AVFoundation.framework in Frameworks */,
 				4C4B672119FE451200A31AE7 /* CoreGraphics.framework in Frameworks */,
 				4C4B672319FE451200A31AE7 /* UIKit.framework in Frameworks */,
 				4C4B671F19FE451200A31AE7 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		4C4B671D19FE451200A31AE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CB3381A19FE5DB800D8B7AE /* AVFoundation.framework */,
 				4C4B671E19FE451200A31AE7 /* Foundation.framework */,
 				4C4B672019FE451200A31AE7 /* CoreGraphics.framework */,
 				4C4B672219FE451200A31AE7 /* UIKit.framework */,
@@ -456,6 +460,7 @@
 				4C4B674F19FE451200A31AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C4B675019FE451200A31AE7 /* Build configuration list for PBXNativeTarget "HearMeNowTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				4C4B675219FE451200A31AE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
